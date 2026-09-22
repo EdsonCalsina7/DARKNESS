@@ -1,0 +1,18 @@
+void main() {
+    Scanner edson = new Scanner(System.in);
+    int numero;
+    long factorial=1;
+    int i=1;
+    System.out.println("ingrese un numero");
+    numero=edson.nextInt();
+
+
+    do{
+       factorial = factorial*i;
+       i++;
+    }while (i<=numero);
+    System.out.println("factorial del numero:" + numero + "es:" + factorial);
+
+
+
+}
